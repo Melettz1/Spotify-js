@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="toast-container"></div>
+
+    <div class="container">
+        <aside class="sidebar">
+            <nav>
+                <ul>
+                    <li><a href="#" id="home-link"><i class="fas fa-home"></i> Início</a></li>
+                    <li><a href="#"><i class="fas fa-search"></i> Buscar</a></li>
+                    <li><a href="#" id="favorites-link"><i class="fas fa-heart"></i> Músicas Curtidas</a></li>
+                    <li><a href="#" id="queue-link"><i class="fas fa-list-ol"></i> Sua Fila</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <main class="main-content">
+            <header>
+                <button id="menu-button"><i class="fas fa-bars"></i></button>
+                <h1>Spotify.js</h1>
+                <form id="search-form">
+                    <input type="text" id="search-input" placeholder="O que você quer ouvir?">
+                    <button type="submit"><i class="fas fa-search"></i></button>
+                </form>
+            </header>
+
+            <section class="results">
+                <h2 id="results-title">Resultados</h2>
+                <div id="results-container" class="grid-container">
+                </div>
+            </section>
+        </main>
+
+        <footer class="player">
+            <div class="track-info">
+                <img id="player-album-art" src="https://e-cdns-images.dzcdn.net/images/cover/d41d8cd98f00b204e9800998ecf8427e/250x250-000000-80-0-0.jpg" alt="Capa do Álbum">
+                <div class="track-details">
+                    <span id="player-track-title">Selecione uma música</span>
+                    <span id="player-artist-name"></span>
+                </div>
+                <button id="player-favorite-btn" class="favorite-btn"><i class="far fa-heart"></i></button>
+            </div>
+            
+            <div class="player-controls-container">
+                <div class="player-controls">
+                    <button id="prev-button"><i class="fas fa-step-backward"></i></button>
+                    <button id="play-pause-button"><i class="fas fa-play"></i></button>
+                    <button id="next-button"><i class="fas fa-step-forward"></i></button>
+                </div>
+    
+                <div class="progress-bar-container">
+                    <span id="current-time">0:00</span>
+                    <div id="progress-bar">
+                        <div id="progress"></div>
+                    </div>
+                    <span id="total-duration">0:30</span>
+                </div>
+            </div>
+
+            <div class="volume-controls">
+                <button id="volume-icon"><i class="fas fa-volume-high"></i></button>
+                <input type="range" id="volume-slider" min="0" max="1" step="0.01" value="1">
+            </div>
+        </footer>
+    </div>
+
+    <audio id="audio-player"></audio>
+    <script src="script.js"></script>
+</body>
+</html>
