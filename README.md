@@ -1,4 +1,4 @@
-# [Spotify.js]
+# Spotify.js
 
 Uma descrição curta e direta sobre o que o projeto faz. Por exemplo: "Um clone da interface do Spotify desenvolvido com JavaScript puro, que utiliza a API do Deezer para buscar e reproduzir prévias de músicas."
 
