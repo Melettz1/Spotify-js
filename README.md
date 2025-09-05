@@ -10,7 +10,7 @@ Uma descrição curta e direta sobre o que o projeto faz. Por exemplo: "Um clone
 
 Você pode ver o projeto em funcionamento aqui:
 
-**[Ver a demonstração ao vivo]([https://spotify-js-delta.vercel.app/])**
+**[https://spotify-js-delta.vercel.app/]**
 
 ---
 
@@ -25,4 +25,4 @@ Você pode ver o projeto em funcionamento aqui:
 
 ## 👨‍💻 Desenvolvido por
 
-[Feito por](https://github.com/Melettz1)
+https://github.com/Melettz1
