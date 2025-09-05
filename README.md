@@ -10,7 +10,7 @@ Uma descrição curta e direta sobre o que o projeto faz. Por exemplo: "Um clone
 
 Você pode ver o projeto em funcionamento aqui:
 
-**[https://spotify-js-delta.vercel.app/]**
+**https://spotify-js-delta.vercel.app/**
 
 ---
 
